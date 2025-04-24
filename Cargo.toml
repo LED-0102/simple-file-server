@@ -1,0 +1,10 @@
+[package]
+name = "simple-file-server"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+actix-web = "4.10.2"
+tokio = { version = "1.44.2", features = ["full"] }
+actix-files = "0.6.6"
+tokio-util = "0.7.15"
